@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "234014188938",
+    "firebase_url": "https://tpfinalmobile.firebaseio.com",
+    "project_id": "tpfinalmobile",
+    "storage_bucket": "tpfinalmobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234014188938:android:c4cd8644de1197eeb35473",
+        "android_client_info": {
+          "package_name": "com.example.tp_final_mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234014188938-fo8ai0lnifje56mapnopep1qubrtd460.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tp_final_mobile",
+            "certificate_hash": "3c80e8488e79b26e60b330db88ba059f6421630d"
+          }
+        },
+        {
+          "client_id": "234014188938-mn7slr26nvrpeaou152211eh9k8pdpi8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXOqsakiX1lkIxtaOmOkLUjkaxYeE1dJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234014188938-mn7slr26nvrpeaou152211eh9k8pdpi8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

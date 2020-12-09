@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="altoLogoConfBeer">45dp</dimen>
+    <dimen name="toolbarAlto">30dp</dimen>
+    <dimen name="cardCornerRadius">4dp</dimen>
+    <dimen name="cardElevation">1dp</dimen>
+    <dimen name="altoImagenViewHome">120dp</dimen>
+    <dimen name="tamanio_titulo">15sp</dimen>
+    <dimen name="HomeSubtitulo">10dp</dimen>
+    <dimen name="imageViewHome">150dp</dimen>
+    <dimen name="tamanioTitulo">20dp</dimen>
+    <dimen name="tamanioSubtitulo">20sp</dimen>
+    <dimen name="cardElevationHome">6dp</dimen>
+    <dimen name="cardMarginHome">15dp</dimen>
+    <dimen name="altoViewHome">1dp</dimen>
+    <dimen name="viewMarginTopHome">10dp</dimen>
+</resources>

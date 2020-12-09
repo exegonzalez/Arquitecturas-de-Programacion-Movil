@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "201995521334",
+    "firebase_url": "https://beerconfdemo.firebaseio.com",
+    "project_id": "beerconfdemo",
+    "storage_bucket": "beerconfdemo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201995521334:android:8d635b4cf4cf0df5aff797",
+        "android_client_info": {
+          "package_name": "com.example.confbeerdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201995521334-vat48s30b499j9dpbhi0bf859sufca9m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.confbeerdemo",
+            "certificate_hash": "f644e7abb9dc68da03cff437c1e0edc5e64fdd95"
+          }
+        },
+        {
+          "client_id": "201995521334-so8493ed3mmhv3ii7rap63puikoqa7io.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYHJmcIdCSOD9g_o646Di7PNIx9A3nWos"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "201995521334-so8493ed3mmhv3ii7rap63puikoqa7io.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SocialBee</string>
+    <string name="inicio_frag_tv_que_es">¿Qué es SocialBee?</string>
+    <string name="inicio_frag_tv_que_es_resp">SocialBee es una red social que permite a diferentes usuarios de Argentina compartir sus conocimientos e información sobre apicultura, de manera que se genere una comunidad que colabora mutuamente para mejorar así el ámbito de este oficio en el país.</string>
+
+    <string name="inicio_frag_tv_info">¿Qué es la apicultura?</string>
+    <string name="inicio_frag_tv_info_resp">La apicultura es la actividad dedicada a la crianza de las abejas y a prestarles los cuidados necesarios con el objetivo de obtener y consumir los productos que son capaces de elaborar y recolectar. El principal producto que se obtiene de esta actividad es la miel.</string>
+
+    <string name="inicio_frag_tv_que">¿Qué se puede encontrar en SocialBee?</string>
+    <string name="inicio_frag_tv_que_resp">En SocialBee no solo se encuentran usuarios dedicados especificamente a la apicultura, también hay una gran comunidad de vendedores de insumos para el área, personas que se dedican a la compra y venta de productos derivados de abejas, cooperativas de apicultores, entre muchas otras cosas más. Cualquier persona que desee ser parte del mundo de la apicultura es bienvenido a esta gran red social.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

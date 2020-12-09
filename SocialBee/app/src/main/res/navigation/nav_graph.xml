@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/navHomeFragment">
+
+    <fragment
+        android:id="@+id/navHomeFragment"
+        android:name="com.example.tp_final_mobile.view.ui.fragments.HomeFragment"
+        android:label="fragment_home"
+        app:navGraph="@navigation/nav_graph"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navHomeFragment_to_navBeeUserFragment"
+            app:destination="@id/navBeeUsersFragment" />
+        <action
+            android:id="@+id/action_navHomeFragment_to_navMapFragment"
+            app:destination="@id/navMapFragment" />
+        <action
+            android:id="@+id/action_navHomeFragment_to_navChatFragment"
+            app:destination="@id/navChatFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navMapFragment"
+        android:name="com.example.tp_final_mobile.view.ui.fragments.UbicationFragment"
+        android:label="fragment_ubication"
+        tools:layout="@layout/fragment_ubication" >
+        <action
+            android:id="@+id/action_navMapFragment_to_beeUserDetailDialogFragment"
+            app:destination="@id/beeUserDetailDialogFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navBeeUsersFragment"
+        android:name="com.example.tp_final_mobile.view.ui.fragments.BeeUserFragment"
+        android:label="fragment_bee_user"
+        tools:layout="@layout/fragment_bee_user" >
+        <action
+            android:id="@+id/action_navBeeUserFragment_to_beeUserDetailDialog"
+            app:destination="@id/beeUserDetailDialogFragment" />
+    </fragment>
+
+    <fragment
+            android:id="@+id/navChatFragment"
+            android:name="com.example.tp_final_mobile.view.ui.fragments.ChatFragment"
+            android:label="fragment_chat"
+            tools:layout="@layout/fragment_chat"/>
+    <dialog
+
+        android:id="@+id/beeUserDetailDialogFragment"
+        android:name="com.example.tp_final_mobile.view.ui.fragments.BeeUserDetailDialogFragment"
+        android:label="fragment_bee_user_detail_dialog"
+        tools:layout="@layout/fragment_bee_user_detail_dialog"
+        />
+
+</navigation>
